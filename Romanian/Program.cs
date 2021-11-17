@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Project21
+namespace Romanian
 {
     class Converter
     {
@@ -19,7 +19,7 @@ namespace Project21
                 ['D'] = 500,
                 ['M'] = 1000
             };
-        }
+         }
         public int Convert(string r)
         {
             string roma = r.ToUpper();
@@ -51,7 +51,7 @@ namespace Project21
         {
             Converter c = new Converter();
             Console.Write("Enter romanian number: ");
-            Console.WriteLine(c.Convert(Console.ReadLine()));
+            Console.WriteLine( c.Convert( Console.ReadLine() ) );
             Console.ReadKey();
 
         }
